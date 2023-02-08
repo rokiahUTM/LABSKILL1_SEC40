@@ -31,7 +31,7 @@
     <EditText
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
-        android:id = "@+id/editText"
+        android:id = "@+id/userNameET"
         android:hint = "Enter Name"
         android:focusable = "true"
         android:textColorHighlight = "#ff7eff15"
@@ -56,12 +56,12 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
+        android:id="@+id/passwordET"
+        android:layout_below="@+id/userNameET"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
+        android:layout_alignRight="@+id/userNameET"
+        android:layout_alignEnd="@+id/userNameET"
         android:textColorHint="#ffff299f"
         android:hint="Password" />
 
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:text="Attempts Left:"
         android:id="@+id/textView2"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/passwordET"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="25dp" />
@@ -92,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"
-        android:id="@+id/button"
+        android:id="@+id/loginBtn"
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/textview"
         android:layout_toStartOf="@+id/textview" />
@@ -101,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancel"
-        android:id="@+id/button2"
+        android:id="@+id/cancelLoginBtn"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/textview"
         android:layout_toEndOf="@+id/textview" />
