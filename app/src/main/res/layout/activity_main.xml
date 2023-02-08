@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:text="Overall: 0.0 GPA"
         android:textSize="24sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,16 +31,15 @@
             android:text="Courses" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/newCourseET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="text" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/addCourseImgBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
