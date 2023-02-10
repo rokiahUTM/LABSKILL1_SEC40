@@ -46,8 +46,6 @@ public class LoginActivity extends AppCompatActivity {
         registerTV.setOnClickListener(new ProcessClick());
         forgotPwdTV.setOnClickListener(new ProcessClick());
 
-
-
     }
 
     public void login(){
